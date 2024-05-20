@@ -1,0 +1,124 @@
+/*-------------POLITICAS DE PRIVACIDAD--------------*/
+
+#politicas {
+    background-color: #0d2149;
+    padding: 2em 6.688em 4em 6.688em;
+}
+
+#politicas .content {
+    font-family: "Raleway", sans-serif;
+    color: #f8f8f8;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#politicas h1 {
+    font-size: 4em;
+    text-align: left;
+    margin-top: 1em;
+    line-height: 1;
+}
+
+#politicas h2 {
+    font-size: 1.5em;
+    text-align: left;
+    margin-top: 2em;
+    font-weight: 800;
+}
+
+#politicas p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+#politicas .content ul li {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#politicas .content ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#politicas .content ol > li {
+    margin-bottom: 3em;
+}
+
+#politicas .content ol > li > h2 {
+    font-size: 1.5em;
+    font-weight: 800;
+    padding-top: 2em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#politicas .content .number {
+    margin-right: 0.5em;
+}
+
+    
+
+
+/*-------------TERMINOS Y CONDICIONES--------------*/
+
+
+#terms1{
+    background-color: #0d2149;
+    color: #f8f8f8;
+    padding: 4em 6.688em 4em 6.688em;
+}
+
+#terms1 h1{
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.left {
+    padding-right: 2em;
+}
+
+.right {
+    padding-left: 2em;
+}
+
+.imagen-pequena {
+    width: 100%;
+    height: auto;
+}
+
+
+#terms2{
+    background-color: #CBD3F2;
+    color: #0d2149;
+    padding: 4em 6.688em 4em 6.688em;
+}
+
+#terms2 p{
+    color: #0d2149;
+    font-weight: 600;
+}
+
+#terms2 h3{
+    font-size: 2.5em;
+    padding-top: 1em;
+}
