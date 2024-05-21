@@ -9,7 +9,7 @@ let data; // Variable para almacenar los datos obtenidos de la API.
 let casos = []; // Arreglo para almacenar los objetos de cada caso de estudio.
 
 // Lista de palabras clave permitidas
-let keywordsPermitidos = ["engaño", "antiético", "navegación", "comparación", "invasión", "experiencia interrumpida", "datos", "privacidad"]; // Ajusta estas keywords según sea necesario
+let keywordsPermitidos = ["Lenguaje poco claro", "Casillas premarcadas por defecto", "Cargos no deseados para los usuarios", "Productos adicionales en el carrito de compras", "Ventanas emergentes", "Pop-ups", "Renovacion automática de suscripción ", "Dificultad para cancelar la suscripción", "Términos y condiciones extensos y complejos", "Dificultar la configuración de la privacidad"]; // Ajusta estas keywords según sea necesario
 
 // Función para cargar los datos JSON de la API utilizando JSONP para solicitudes de dominio cruzado.
 function preload() {
