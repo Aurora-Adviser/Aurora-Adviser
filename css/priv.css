@@ -13,7 +13,7 @@
 }
 
 #politicas h1 {
-    font-size: 4em;
+    font-size: 3em;
     text-align: left;
     margin-top: 1em;
     line-height: 1;
@@ -61,6 +61,28 @@
 }
 
     
+@media screen and (max-width: 480px) {
+    #politicas{
+        padding: 0 1em;
+    }
+
+    #politicas p{
+        font-size: 0.8em;
+    }
+
+    #politicas .content ul li {
+        font-size: 0.8em;
+    }
+
+    #politicas h2{
+        font-size: 1.5em;
+    }
+
+    #politicas h1{
+        font-size: 2em;
+    }
+}
+
 
 
 /*-------------TERMINOS Y CONDICIONES--------------*/
@@ -70,6 +92,12 @@
     background-color: #0d2149;
     color: #f8f8f8;
     padding: 4em 6.688em 4em 6.688em;
+}
+
+#terms1 p{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 #terms1 h1{
@@ -116,9 +144,43 @@
 #terms2 p{
     color: #0d2149;
     font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 #terms2 h3{
-    font-size: 2.5em;
+    font-size: 2em;
     padding-top: 1em;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 480px) {
+    #terms1{
+        padding: 0 1em;
+    }
+
+    #terms1 p{
+        font-size: 0.8em;
+    }
+
+    #terms1 h2{
+        font-size: 1.5em;
+    }
+
+    #terms1 h1{
+        font-size: 2em;
+    }
+
+    #terms2{
+        padding: 0 1em;
+    } 
+
+    #terms2 p{
+        font-size: 0.8em;
+    }
+
+    #terms2 h3{
+        font-size: 1em;
+    }
 }

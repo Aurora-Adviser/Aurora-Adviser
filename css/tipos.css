@@ -198,6 +198,10 @@ img {
     padding: 5.75em 6.688em 4em 6.688em;
 }
 
+  #oreo a{
+    text-decoration: none;
+  }
+  
     #oreo p {
       font-size: 1.5em; 
       line-height: 1.5em;
@@ -205,16 +209,31 @@ img {
 }
 
     #oreo h2{
-      font-size: 2em;
-    margin-bottom: 0.5em;
-    color: #f8f8f8;
-
+      font-size: 2.888em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      color: #f8f8f8;
 }
 
-#oreo h1{
-  font-size: 3em;
-  margin-bottom: 0.5em;
-  color: #f8f8f8;
+    #oreo h3{
+      font-size: 2.875em;
+      font-weight: 600;
+      margin-bottom: 0.5em;
+      color: #f8f8f8;
+}
+
+    #oreo .preguntas{
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      color: #0D2149;
+}
+
+    #oreo h1{
+      font-size: 3em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      color: #f8f8f8;
 
 }
 
@@ -264,7 +283,7 @@ img {
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 12px;
+  font-size: 1.5em;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -280,6 +299,35 @@ img {
   background-color: #2AB9D5; /* Color de fondo al pasar el ratón */
 }
 
+
+@media (max-width: 768px) {
+  #oreo {
+      padding: 2em 1em; /* Ajuste de padding para pantallas pequeñas */
+  }
+  
+  #oreo p{
+      font-size: 0.8em; /* Ajuste de tamaños de fuente para pantallas pequeñas */
+  }
+
+  #oreo h2{
+    font-size: 1.5em;
+  } 
+  
+  #oreo h3{
+    font-size: 1em;
+  }
+
+  #oreo h1{
+    font-size: 1.5em;
+  }
+
+  .columna2 {
+      margin-left: auto; /* Eliminar el margen izquierdo */
+      margin-right: auto; /* Asegurar que esté centrado horizontalmente */
+      margin-top: 2em; /* Añadir margen superior para espacio adicional si es necesario */
+      width: 80%; /* Ajusta el ancho según sea necesario */
+  }
+}
 
   /* Desplegable */
 
@@ -303,7 +351,7 @@ img {
     padding-bottom: 1em;
     text-align: left;
     outline: none;
-    font-size: 18px;
+    font-size: 1em;
     justify-content: left;
     text-transform: none;
   }
@@ -333,13 +381,27 @@ img {
     background-color: transparent;
   }
 
-  .ola{
+  #oreo .ola{
     color: #0D2149;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 600;
   }
 
-  .h3titulo{
-    color: #0D2149;
-    font-size: 28px;
+  #oreo .h3titulo{
+    color: #f8f8f8;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  
+  @media screen and (max-width: 480px) {
+    #oreo .ola{
+      font-size: 0.8em;
+    }
+    #oreo .preguntas{
+    font-size: 1em;
+    }
   }
 
   /* Media query para pantallas pequeñas */
@@ -412,22 +474,25 @@ img {
     padding: 12px; /* Some padding */ 
     border-radius: 10px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
+    border: 3px solid #f8f8f8;
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    color: #0D2149;
     background-color: #f8f8f8;
+    font-size: 1em;
   }
   
   /* Styles para el botón de envío dentro de .Preguntas */
   .Preguntas input[type=submit] {
     /* Estilos para el botón de envío */
-    background-color: #0D2149;
+    background-color: #4D608D;
     color: #f8f8f8;
     padding: 12px 20px;
-    border: none;
+    border: 3px solid #f8f8f8;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
   }
 
   .h3titulo{
@@ -436,7 +501,8 @@ img {
   
   /* Cuando el mouse pasa sobre el botón de envío, agregar un color verde más oscuro */
   .Preguntas input[type=submit]:hover {
-    background-color: #2AB9D5;
+    background-color: #8A66CB;
+    border: 3px solid #8A66CB;
   }
   
   .Preguntas input[type=text]::placeholder {
@@ -460,6 +526,13 @@ img {
     border: none; /* Quitar el borde */
     background-color: #f2f2f2; /* Background color */
     color: #0D2149; /* Text color */
+  }
+
+  @media screen and (max-width: 480px) {
+    #oreo .h3titulo{
+      font-size: 1em;
+    }
+
   }
   
   
@@ -499,13 +572,15 @@ img {
     color: #0D2149;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: 600;
     line-height: 1.5em;
   }
   
   @media screen and (max-width: 768px) {
     #contacto i {
       gap: 5rem; /* Ajuste del espacio entre los íconos */
+      font-size: 1.5em;
       padding: 1em; /* Ajuste del espaciado interno */
     }
   }
@@ -514,6 +589,10 @@ img {
     #contacto i {
       gap: 2rem; /* Ajuste del espacio entre los íconos */
       padding: 0.5em; /* Ajuste del espaciado interno */
+    }
+
+    #contacto p{
+      font-size: 1em;
     }
   }
 

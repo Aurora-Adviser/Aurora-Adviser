@@ -114,7 +114,7 @@ color: #f8f8f8;
 
 @media (max-width: 400px) {
     #banner{
-        padding: 4em;
+        padding: 1em;
     }
     #banner h1 {
         font-size: 2.5em; /* Reducir el tamaño del texto para pantallas pequeñas */
@@ -226,7 +226,7 @@ color: #f8f8f8;
     }
 
     #objetivos{
-        padding: 4em;
+        padding: 1em;
     }
 }
 
@@ -356,7 +356,7 @@ color: #f8f8f8;
 @media (max-width: 400px) {
 
     #carrusel {
-        padding: 4em;
+        padding: 1em;
     }
 
     #carrusel h2 {
@@ -455,8 +455,8 @@ color: #f8f8f8;
 @media (max-width: 400px) {
 
 #team{
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #team h2{
@@ -554,8 +554,8 @@ color: #f8f8f8;
 @media (max-width: 400px) {
 
     #dark{
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     
     #dark h2{

@@ -21,10 +21,6 @@ $phone-horizontal: 768px; // Teléfonos en horizontal
 $desktop: 1024px; // Escritorio
 
 
-// google fonts
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,700&display=swap');
-
-
 /** mixin para sombras **/
 
 @mixin shadow-steps($num, $inc) {
@@ -51,13 +47,11 @@ body {
     display: flex;
     justify-content: center;
     font-size: 2em;
-    font-family: "Abril Fatface", serif;
 }
 
 h2 {
     color: $color-title;
     font-size: 5em;
-    font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
     margin: 1em 0 .5em 0;
@@ -88,7 +82,6 @@ h2 {
     .overlay {
         position: absolute;
         background-color: $color-overlay;
-        font-family: "Barlow", sans-serif;
         width: 100%;
         padding: 1em;
         top: 0;
@@ -111,7 +104,7 @@ h2 {
         }
 
         .desc {
-            font-size: 1.2em;
+            font-size: 1.5em;
             font-weight: 400;
             transform: translateY(100%);
             transition: transform 0.5s;
@@ -143,7 +136,7 @@ h2 {
 
     .desc {
         margin: 1em 0;
-        font-size: 1.4em;
+        font-size: 1.5em;
         line-height: 1.2em;
         color: $color-text;
         font-family: Barlow;
