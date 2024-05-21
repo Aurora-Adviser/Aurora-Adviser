@@ -7,6 +7,7 @@
 #parte p{
     font-size: 1.5em;
     line-height: 1.5em;
+    font-weight: 600;
 }
 
 #parte h1{
@@ -240,7 +241,7 @@
     }
 
     #team h2 {
-        font-size: 1.3em; /* Ajuste del tamaño de fuente */
+        font-size: 1.5em; /* Ajuste del tamaño de fuente */
     }
 
     #team p {
