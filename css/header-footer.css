@@ -354,6 +354,11 @@
 	.right-section img {
 	  display: none; /* Ocultar los iconos de redes y la imagen */
 	}
+
+	.left-section h5 {
+		font-size: 0.8em;
+		padding-left: 0em;
+	  }
   
 	.fa-solid.fa-greater-than {
 	  display: none; /* Ocultar el icono */
