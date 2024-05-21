@@ -79,7 +79,7 @@
     }
 
     #politicas h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 
@@ -169,11 +169,12 @@
     }
 
     #terms1 h1{
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     #terms2{
-        padding: 0 1em;
+        padding-left: 1em;
+        padding-right: 1em;
     } 
 
     #terms2 p{
@@ -183,4 +184,32 @@
     #terms2 h3{
         font-size: 1em;
     }
+
+  }
+
+  @media (max-width: 400px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+        text-align: left;
+    }
+
+    .left,
+    .right {
+        padding: 2em 0em;
+
+    }
+
+    .right {
+        order: -1;
+    }
+
+
+    .button {
+        font-size: 0.8em;
+   }    
 }
